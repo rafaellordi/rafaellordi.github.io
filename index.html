@@ -1,0 +1,273 @@
+﻿<html lang ="pt-br">
+ <head>
+  <meta charset="UTF-8">
+	<title> Meu desenho predileto </title
+</head>
+
+   <body>
+
+
+	Veja o desenho que o computador fez ...<br>
+	<canvas id="desenho" width="500" height="400"> </canvas>
+<script>
+       var canvas = document.getElementById("desenho");
+       var superficie = canvas.getContext("2d");
+         superficie.beginPath();//A partir daqui vai começar a desenhar
+         superficie.strokeStyle = 'blue'; //define a cor da caneta para preto
+   
+//desenha um retângulo do ponto 0,0 até o ponto 300,300
+          superficie.rect(0, 0, 250, 400);
+          superficie.stroke();//desenha os comandos fornecidos até aqui.
+          superficie.closePath();//encerra a primeira parte do desenho
+
+          superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'blue'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(122, 330, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'red'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(100, 40, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'green'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(122, 40, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'orange'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(144, 40, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'purple'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(168, 40, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'black'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(111, 62, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'yellow'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(133, 62, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'brown'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(157, 62, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'gray'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(146, 82, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'pink'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(122, 82, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'yellow'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(133, 100, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+ superficie.beginPath(); //A partir daqui vai começar a segunda parte
+          superficie.strokeStyle = 'blue'; //define a cor da caneta para azul
+          superficie.fillStyle = 'white'; //define a cor de fundo para amarelo
+          superficie.lineWidth = 5; //define a largura da linha para 10 pixels (linha grossa)
+//desenha um círculo (com fundo), cujo centro é o ponto 100,50 e o raio é 30
+          superficie.arc(122, 330, 10, 0, 2 * Math.PI, false);
+//desenha os comandos fornecidos até aqui.
+          superficie.stroke();
+          superficie.fill();
+          superficie.closePath() //encerra a segunda parte do desenho
+         
+
+
+
+	//	Linhas
+
+       
+        
+	superficie.beginPath(); //Começa a terceira parte do desenho
+          superficie.strokeStyle = 'grean'; //define a cor da caneta para verde
+          superficie.lineWidth = 3; //define a largura da caneta para 3 pixels
+          superficie.moveTo(30, 190); //move a caneta para o ponto 20, 200
+          superficie.lineTo(20,380); //faz uma linha até o ponto 150, 200
+          superficie.stroke(); //desenha os comandos fornecidos até aqui.
+          superficie.closePath() //encerra a terceira parte do desenho
+
+	superficie.beginPath(); //Começa a terceira parte do desenho
+          superficie.strokeStyle = 'black'; //define a cor da caneta para verde
+          superficie.lineWidth = 3; //define a largura da caneta para 3 pixels
+          superficie.moveTo(10, 190); //move a caneta para o ponto 20, 200
+          superficie.lineTo(10,20); //faz uma linha até o ponto 150, 200
+          superficie.stroke(); //desenha os comandos fornecidos até aqui.
+          superficie.closePath() //encerra a terceira parte do desenho
+
+	  superficie.beginPath(); //Começa a terceira parte do desenho
+          superficie.strokeStyle = 'black'; //define a cor da caneta para verde
+          superficie.lineWidth = 3; //define a largura da caneta para 3 pixels
+          superficie.moveTo(10, 210); //move a caneta para o ponto 20, 200
+          superficie.lineTo(10,380); //faz uma linha até o ponto 150, 200
+          superficie.stroke(); //desenha os comandos fornecidos até aqui.
+          superficie.closePath() //encerra a terceira parte do desenho  
+
+          superficie.beginPath(); //Começa a terceira parte do desenho
+          superficie.strokeStyle = 'black'; //define a cor da caneta para verde
+          superficie.lineWidth = 3; //define a largura da caneta para 3 pixels
+          superficie.moveTo(240, 190); //move a caneta para o ponto 20, 200
+          superficie.lineTo(240,20); //faz uma linha até o ponto 150, 200
+          superficie.stroke(); //desenha os comandos fornecidos até aqui.
+          superficie.closePath() //encerra a terceira parte do desenho
+	
+         superficie.beginPath(); //Começa a terceira parte do desenho
+          superficie.strokeStyle = 'black'; //define a cor da caneta para verde
+          superficie.lineWidth = 3; //define a largura da caneta para 3 pixels
+          superficie.moveTo(240, 380); //move a caneta para o ponto 20, 200
+          superficie.lineTo(240,210); //faz uma linha até o ponto 150, 200
+          superficie.stroke(); //desenha os comandos fornecidos até aqui.
+          superficie.closePath() //encerra a terceira parte do desenho
+
+          superficie.beginPath(); //Começa a terceira parte do desenho
+          superficie.strokeStyle = 'black'; //define a cor da caneta para verde
+          superficie.lineWidth = 3; //define a largura da caneta para 3 pixels
+          superficie.moveTo(20, 10); //move a caneta para o ponto 20, 200
+          superficie.lineTo(229,10); //faz uma linha até o ponto 150, 200
+          superficie.stroke(); //desenha os comandos fornecidos até aqui.
+          superficie.closePath() //encerra a terceira parte do desenho
+
+
+          superficie.beginPath(); //Começa a terceira parte do desenho
+          superficie.strokeStyle = 'black'; //define a cor da caneta para verde
+          superficie.lineWidth = 3; //define a largura da caneta para 3 pixels
+          superficie.moveTo(20,390 ); //move a caneta para o ponto 20, 200
+          superficie.lineTo(230,390); //faz uma linha até o ponto 150, 200
+          superficie.stroke(); //desenha os comandos fornecidos até aqui.
+          superficie.closePath() //encerra a terceira parte do desenho
+
+
+	// Arcos
+
+          superficie.beginPath();//Começa a quarta parte do desenho
+          superficie.strokeStyle = 'red'; //define a cor da caneta para vermelho
+//faz um arco com centro no ponto 100, 80, com raio de 20
+          superficie.arc(239, 09, 7, 10, 6, Math.PI, false);
+          superficie.stroke();//desenha os comandos fornecidos até aqui.
+          superficie.closePath()//encerra o desenho
+
+           superficie.beginPath();//Começa a quarta parte do desenho
+          superficie.strokeStyle = 'red'; //define a cor da caneta para vermelho
+//faz um arco com centro no ponto 100, 80, com raio de 20
+          superficie.arc(239, 200, 7, 5, 1, Math.PI, false);
+          superficie.stroke();//desenha os comandos fornecidos até aqui.
+          superficie.closePath()//encerra o desenho
+
+          superficie.beginPath();//Começa a quarta parte do desenho
+          superficie.strokeStyle = 'red'; //define a cor da caneta para vermelho
+//faz um arco com centro no ponto 100, 80, com raio de 20
+          superficie.arc(10, 200, 7, 2, 4, Math.PI, false);
+          superficie.stroke();//desenha os comandos fornecidos até aqui.
+          superficie.closePath()//encerra o desenho
+
+
+	 //
+          superficie.beginPath();//Começa a quarta parte do desenho
+          superficie.strokeStyle = 'red'; //define a cor da caneta para vermelho
+//faz um arco com centro no ponto 100, 80, com raio de 20
+          superficie.arc(239, 390, 7, 6, 15, Math.PI, false);
+          superficie.stroke();//desenha os comandos fornecidos até aqui.
+          superficie.closePath()//encerra o desenho
+	 
+          superficie.beginPath();
+          superficie.strokeStyle = 'red'; //define a cor da caneta para vermelho
+//faz um arco com centro no ponto 100, 80, com raio de 20
+          superficie.arc(9, 09, 7, -10, 5, Math.PI, false);
+          superficie.stroke();//desenha os comandos fornecidos até aqui.
+          
+   //
+          superficie.beginPath();
+          superficie.strokeStyle = 'red'; //define a cor da caneta para vermelho
+//faz um arco com centro no ponto 100, 80, com raio de 20
+          superficie.arc(9, 390, 7, -5, 10, Math.PI, false);
+          superficie.stroke();//desenha os comandos fornecidos até aqui.
+
+          
+
+</script>
+
+        
+
+   </boby>
+ </html>
