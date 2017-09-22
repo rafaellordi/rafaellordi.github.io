@@ -1,0 +1,35 @@
+.textocolorido {
+	color:#0000FF;
+	text-decoration:underline;
+}
+.teste{
+    background-image: url('imagens/fundo.png');
+    background-repeat: no-repeat;
+    background-size:10%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    
+    top: 0;
+	background-size: cover;
+
+}
+.missao{
+	background-image: url('imagens/fundom1.png');
+    background-repeat: no-repeat;
+    background-size:10%;
+    bottom: 0;
+    color: black;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    top: 0;
+	background-size: cover;
+	
+}
