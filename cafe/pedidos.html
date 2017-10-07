@@ -1,0 +1,58 @@
+<DOCTYPE html>
+<html>
+ <head>
+  <meta charset= "utf-8">
+    <link rel="stylesheet" href="estilostabela.css">
+   <title>Pedido</title>
+   
+  </head>
+  <body>
+   
+	<h1 style=>Café StarBugs</h1>
+	<h3>Pedido online</h3>
+	<h2></h2>
+    <p>Preencha o formulário abaixo e clique em "Enviar Pedido" para solicitar
+    uma caixa com grãos presonalizados.</p>
+
+    <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+        Escolha a variedade dos grãos:
+        <select>
+                <option value="col">Grãos da Colômbia</option>
+                <option value="ita">Grãos da Italia</option>
+                <option value="japa">Grãos da Japão</option>
+                <option value="china">Grãos da China</option>
+        </select><p>
+       
+        Tipo:<br>
+        <input type="radio" name="grao"value="grao"checked>Gãos Inteiros<br>
+        <input type="radio" name="grao"value="grao">Gãos Moídos<br>
+        <p>
+        Extras:<br>
+        <input type="checkbox" name="embalar"value="embalar">Embalar para presente<br>
+        <input type="checkbox" name="catalago"value="catalago"checked>Quero um catálago com cafés especiais.<br>
+        <p>
+         Enviar para:<br>
+        Nome:
+        <input type="text" name="nome"value="">
+       <br>
+        Endereço:
+        <input type="text" name="endereco" value="">
+        <br>
+        Cidade:
+        <input type="text" name="cidade"value="">
+        <br>
+        Estado:
+        <input type="text" name="estado"value="">
+        <br>
+        CEP:
+        <input type="text" name="cep"value="">
+        <p>
+        Observações:<br>
+        <textarea name="obs" id="obs" cols="40" rows="5">
+        </textarea>
+       
+        <br>
+        <input type="submit"value="Enviar Pedido!">
+    </form>
+   </body>
+  </html>
