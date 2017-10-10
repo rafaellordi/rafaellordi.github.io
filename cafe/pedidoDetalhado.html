@@ -1,0 +1,64 @@
+<DOCTYPE html>
+<html>
+ <head>
+  <meta charset= "utf-8">
+    <link rel="stylesheet" href="estilo.css">
+   <title>Pedido</title>
+   
+  </head>
+  <body>
+   <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
+    <table>
+        <tr>
+          <th colspan="2" class="formheader">Dados de contato</th>
+        </tr>
+        <tr><td class="formlabel">  Nome Completo:</td><td class="formfield"><input type="text" id="nome"size="40"required placeholder="Jack Java Lee"name="nome"></td></tr> 
+        <tr><td class="formlabel">  Email:</td><td class="formfield"><input type="email" id="email"size="40"required placeholder="jack.java.lee@gmail.com"name="email"></td></tr>
+        <tr><td class="formlabel">  Telefone:</td><td class="formfield"><input type="tel" id="telefone"size="40"required placeholder="(55) 99999 9999"name="telefone"></td></tr>
+
+
+
+
+
+
+        Escolha a variedade dos grãos:
+        <select>
+                <option value="col">Grãos da Colômbia</option>
+                <option value="ita">Grãos da Italia</option>
+                <option value="japa">Grãos da Japão</option>
+                <option value="china">Grãos da China</option>
+        </select><p>
+       
+        Tipo:<br>
+        <input type="radio" name="grao"value="grao"checked>Gãos Inteiros<br>
+        <input type="radio" name="grao"value="grao">Gãos Moídos<br>
+        <p>
+        Extras:<br>
+        <input type="checkbox" name="embalar"value="embalar">Embalar para presente<br>
+        <input type="checkbox" name="catalago"value="catalago"checked>Quero um catálago com cafés especiais.<br>
+        <p>
+         Enviar para:<br>
+        <input type="text" name="nome"value="">
+       <br>
+        Endereço:
+        <input type="text" name="endereco" value="">
+        <br>
+        Cidade:
+        <input type="text" name="cidade"value="">
+        <br>
+        Estado:
+        <input type="text" name="estado"value="">
+        <br>
+        CEP:
+        <input type="text" name="cep"value="">
+        <p>
+        Observações:<br>
+        <textarea name="obs" id="obs" cols="40" rows="5">
+        </textarea>
+       
+        <br>
+        <input type="submit"value="Enviar Pedido!">
+    </table>
+    </form>
+   </body>
+  </html>
