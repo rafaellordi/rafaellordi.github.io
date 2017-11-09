@@ -1,0 +1,24 @@
+body{
+background-color: lightgrey;
+}
+h1{
+font-family:Ubuntu;
+color:red;
+}
+p
+{
+color:blue;
+border-width:medium;
+border-style:solid;
+border-color:black;
+}
+
+#teste{
+color:orange;
+font-style:italic;
+}
+.testeclass
+{
+font-size: 30px;
+}
+

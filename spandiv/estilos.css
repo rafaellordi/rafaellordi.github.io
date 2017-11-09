@@ -1,0 +1,37 @@
+
+h1{
+	color:white;
+}
+
+
+div{
+	
+	background-color:#B22222; 
+	color:white;
+	padding: 4px;
+	text-align:justify;
+	padding-top: 50px;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    padding-left: 80px;
+}
+
+span{
+
+	border-width: medium;
+	border-bottom: solid;
+    border-color: white;
+	font-weight:bold;
+}
+.preco{
+	
+	background-color:#006400;
+	padding-left:20px
+	
+}
+.titulo{
+	
+	background-color:#B22222; 
+	color:white;
+	padding: 4px;
+}

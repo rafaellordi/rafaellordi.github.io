@@ -55,24 +55,5 @@ a:active {
 h1{
 	border-bottom:6px solid;
 }
-#menu ul li { display: inline;
- }
-.formlabel{
-color:#000000;
-font-weight:bold;
-text-align:right;
-}
-.formfield{
-color:#000000;
-font-weight:bold;
+#menu ul li { display: inline; }
 
-}
-.formheader{
-color:#a522d4;
-text-align:left;
-
-}
-.iframecss1{
-	border-width:medium;
-	border-color:blue;
-}

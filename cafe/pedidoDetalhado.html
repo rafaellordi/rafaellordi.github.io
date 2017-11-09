@@ -4,7 +4,9 @@
   <meta charset= "utf-8">
     <link rel="stylesheet" href="estilo.css">
    <title>Pedido</title>
-   
+   <script>
+       
+   </script>
   </head>
   <body>
    <form action="http://www.cs.tut.fi/cgi-bin/run/~jkorpela/echo.cgi">
@@ -12,52 +14,49 @@
         <tr>
           <th colspan="2" class="formheader">Dados de contato</th>
         </tr>
-        <tr><td class="formlabel">  Nome Completo:</td><td class="formfield"><input type="text" id="nome"size="40"required placeholder="Jack Java Lee"name="nome"></td></tr> 
-        <tr><td class="formlabel">  Email:</td><td class="formfield"><input type="email" id="email"size="40"required placeholder="jack.java.lee@gmail.com"name="email"></td></tr>
-        <tr><td class="formlabel">  Telefone:</td><td class="formfield"><input type="tel" id="telefone"size="40"required placeholder="(55) 99999 9999"name="telefone"></td></tr>
-
-
-
-
-
-
-        Escolha a variedade dos grãos:
+        <tr><td class="formlabel">  Nome Completo:</td><td class="formfield"><input type="text" id="Nome"size="40"required placeholder="Jack Java Lee"name="Nome"></td></tr> 
+        <tr><td class="formlabel">  Email:</td><td class="formfield"><input type="email" id="Email"size="40"required placeholder="jack.java.lee@gmail.com"name="Email"></td></tr>
+        <tr><td class="formlabel">  Telefone:</td><td class="formfield"><input type="tel" id="Telefone"size="40"required placeholder="(55) 99999 9999"name="Telefone"></td></tr>
+		<tr>
+       <th colspan="2" class="formheader">Informação do pedido</th>
+	    </tr>
+		<tr><td class="formlabel">  Variedade:</td><td class="formfield"> 
         <select>
                 <option value="col">Grãos da Colômbia</option>
                 <option value="ita">Grãos da Italia</option>
                 <option value="japa">Grãos da Japão</option>
                 <option value="china">Grãos da China</option>
-        </select><p>
+        </select></td></tr>
+		<tr><td class="formlabel">  Quantidade:</td><td class="formfield"><input type="text" id="Quantidade"size="40"required value="1"name="Quantidade"></td></tr> 
+       <tr><td class="formlabel">  Data limite:</td><td class="formfield"><input type="date" min="2017/10/13"max=""id="data"size="40"required value="dd/nn/aaaa" name="Data"></td></tr> 
+       <th>
+       <th> </th>
+	    </th>
+		<tr><td class="formlabel">Tipo:</td><td class="formfield"><input type="radio"size="40" value="Grao"checked>Gãos Inteiros</td></tr> 
+		<tr><td class="formlabel"></td><td class="formfield"><input type="radio"size="40" value="Grao">Gãos Moídos</td></tr> 
+     
+       <tr>
+          <th></th>
+        </tr>
+		<tr><td class="formlabel">Extras:</td><td class="formfield"><input type="checkbox" name="Embalar"value="embalar">Embalar para presente</td></tr> 
+		<tr><td class="formlabel"></td><td class="formfield"><input type="checkbox" name="Catalago"value="catalago"checked>Quero um catálago com cafés especiais.</td></tr>
+       <tr>
+          <th colspan="2" class="formheader">Dados de Entrega</th>
+        </tr>
+        <tr><td class="formlabel">Endereço</td><td class="formfield"><input type="test" name="Endereco"placeholder="Rua das Andrades"></td></tr>
+		<tr><td class="formlabel">Cidade/Estado</td><td class="formfield"><input type="test" name="Cidade"placeholder="Pinhal">
+		<label>/ </label><select>
+		 <option value="RS">RS</option>
+		 <option value="PR">PR</option>
+		 <option value="SC">SC</option>
+		 </select>
+		</td></tr>
+	   <tr><td class="formlabel">CEP:</td><td class="formfield"><input type="Inteiros" name="CEP"placeholder="98345-000"></td></tr>
+        <tr><td class="formlabel">Observações</td><td class="formfield"><textarea name="obs" id="obs" cols="40" rows="5"></textarea></td></tr>
+		 <tr><td class="formlabel"></td><td class="formfield"><input type="reset"value="limpar"><input type="submit"value="Enviar Pedido!"></td></tr>
+        
        
-        Tipo:<br>
-        <input type="radio" name="grao"value="grao"checked>Gãos Inteiros<br>
-        <input type="radio" name="grao"value="grao">Gãos Moídos<br>
-        <p>
-        Extras:<br>
-        <input type="checkbox" name="embalar"value="embalar">Embalar para presente<br>
-        <input type="checkbox" name="catalago"value="catalago"checked>Quero um catálago com cafés especiais.<br>
-        <p>
-         Enviar para:<br>
-        <input type="text" name="nome"value="">
-       <br>
-        Endereço:
-        <input type="text" name="endereco" value="">
-        <br>
-        Cidade:
-        <input type="text" name="cidade"value="">
-        <br>
-        Estado:
-        <input type="text" name="estado"value="">
-        <br>
-        CEP:
-        <input type="text" name="cep"value="">
-        <p>
-        Observações:<br>
-        <textarea name="obs" id="obs" cols="40" rows="5">
-        </textarea>
-       
-        <br>
-        <input type="submit"value="Enviar Pedido!">
+		
     </table>
     </form>
    </body>

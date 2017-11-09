@@ -1,0 +1,25 @@
+td, th{
+      border: 1px solid #dddddd;
+      padding: 15px;/*Espaço ao redor das células */
+}
+table{
+      width:100%; 
+      text-align: center; 
+}
+th{ 
+     background-color:blue;
+}
+td{
+     background-color:#228b22;
+}
+.titulo{
+     background-color:666666;
+}
+.imgtable{
+        width: 0%; 
+        text-align: 0; 
+}
+.img{
+        background-color:#cccccc;
+}
+
