@@ -1,0 +1,13 @@
+.borda{
+border-bottom:1px solid;
+color:grey;
+}
+.bords{
+border-right: 60px;
+border-right-color: #ffffff;
+border-right-style: solid;
+text-align: justify;
+}
+.cor{
+background-color:#363636;
+}
